@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <malloc.h>
 
-void third_largest(int *arr,int arr_size)
+void third_largest(int *arr, int arr_size)
 {
     int i, j;
     for (i = 0; i < arr_size; i++)
@@ -16,10 +16,7 @@ void third_largest(int *arr,int arr_size)
             }
         }
     }
-    for (i = 0; i < arr_size; i++)
-    {
-        printf("%d ", *(arr + i));
-    }
+    printf("%d", arr[2]);
 }
 
 int main()
