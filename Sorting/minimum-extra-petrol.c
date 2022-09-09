@@ -32,7 +32,6 @@ int main()
             scanf("%d", &arr[i]);
         }
         sort(arr, n);
-        printf("\n");
         printf("%d\n", arr[0] - k > 0 ? arr[0] - k : -1);
     }
     return 0;
