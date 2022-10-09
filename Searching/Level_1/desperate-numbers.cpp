@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cmath>
-
 using namespace std;
+
 int binarySearch(int low, int high, int key)
 {
     while (low <= high)
