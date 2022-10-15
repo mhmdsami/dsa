@@ -1,10 +1,12 @@
 #include <bits/stdc++.h>
 using namespace std;
+
 struct Node
 {
     int data;
     struct Node *next;
 } *head = NULL;
+
 void sortedInsert(struct Node **head_ref, struct Node *new_node)
 {
     Node *current;
@@ -24,6 +26,7 @@ void sortedInsert(struct Node **head_ref, struct Node *new_node)
         current->next = new_node;
     }
 }
+
 Node *newNode(int new_data)
 {
     Node *new_node = new Node();
