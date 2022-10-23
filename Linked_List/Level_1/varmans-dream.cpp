@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 struct Node
@@ -34,6 +34,7 @@ Node *newNode(int new_data)
     new_node->next = NULL;
     return new_node;
 }
+
 void display()
 {
     Node *temp = head;
@@ -46,6 +47,7 @@ void display()
         temp = temp->next;
     }
 }
+
 int main()
 {
     int j;
